@@ -1,12 +1,12 @@
 import React from "react";
 
-const Profile = ({ img, size }) => {
+const Profile = ({ img }) => {
   return (
     <div className="profile">
       <img
         src={img}
         alt="Profile Photo"
-        className="profilePhoto rounded-lg h-[300px]"
+        className="cursor-pointer rounded-lg h-[300px]"
       />
     </div>
   );

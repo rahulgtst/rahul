@@ -6,5 +6,6 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
-.profilePhoto {
+.App {
+  background-image: url("./assets/background.png");
 }
