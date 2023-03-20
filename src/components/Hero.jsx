@@ -1,12 +1,11 @@
 import React from "react";
-import Image from "../assets/rahul-profile.png";
-import Background from "../assets/background.png";
-import Profile from "./Profile";
+import img from "../assets/rahul-profile.png";
+import Image from "./Image";
 
 const Hero = () => {
   return (
     <div className="hero flex justify-between items-center px-[200px] h-[650px] ">
-      <Profile img={Image} />
+      <Image img={img} title="Rahul Gupta" />
       <div className="info flex flex-col justify-center items-center italic bg-[white]">
         <h1 className="text-[48px]">
           Hi, I'm <span className="font-bold">Rahul Gupta</span>

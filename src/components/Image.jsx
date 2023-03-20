@@ -1,8 +1,8 @@
 import React from "react";
 
-const Profile = ({ img }) => {
+const Image = ({ img, title }) => {
   return (
-    <div className="profile">
+    <div className="profile" title={title}>
       <img
         src={img}
         alt="Profile Photo"
@@ -12,4 +12,4 @@ const Profile = ({ img }) => {
   );
 };
 
-export default Profile;
+export default Image;
