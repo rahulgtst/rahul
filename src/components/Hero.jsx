@@ -8,7 +8,10 @@ const Hero = () => {
       <Image img={img} title="Rahul Gupta" />
       <div className="info flex flex-col justify-center items-center italic bg-[white]">
         <h1 className="text-[48px]">
-          Hi, I'm <span className="font-bold">Rahul Gupta</span>
+          Hi, I'm{" "}
+          <span className=" decoration-wavy decoration-yellow-300 decoration-from-font font-bold">
+            Rahul Gupta
+          </span>
         </h1>
         <h3 className="text-[24px]">A Front End Developer</h3>
         <q className="w-[500px] text-[14px] text-center mt-4">

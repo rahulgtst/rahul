@@ -7,5 +7,10 @@ html {
 }
 
 .App {
+  scrollbar-width: thin;
   background-image: url("./assets/background.png");
+}
+
+span {
+  text-decoration: underline;
 }
