@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../assets/rahul-profile.png";
+import Rahul_Gupta_Resume from "../assets/resume.pdf";
 import Image from "./Image";
 
 const Hero = () => {
@@ -18,6 +19,16 @@ const Hero = () => {
           Code enthusiast ❤️ crafting beautiful user experiences, Passionate
           programmer 💻 solving real-world problems.
         </q>
+        <div className="flex gap-3 mt-6">
+          <button className="bg-[white] h-[40px] w-[140px] rounded-md text-[#1C1259] border border-[#1C1259] hover:text-white hover:bg-[#1C1259]">
+            Contact Me
+          </button>
+          <button className="bg-[#1C1259] h-[40px] w-[140px] rounded-md text-white hover:bg-white hover:text-[#1C1259] hover:border hover:border-[#1C1259]">
+            <a download href={Rahul_Gupta_Resume}>
+              Resume (32KB)
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );
