@@ -5,9 +5,9 @@ const Tool = ({ source, name, colorCode }) => {
     <div
       title={name}
       style={{ backgroundColor: colorCode }}
-      className="p-3 w-[72px] rounded-lg"
+      className="w-[90px] h-[90px] rounded-lg flex items-center justify-center"
     >
-      <img src={source} alt={name} className="h-[72px] w-auto" />
+      <img src={source} alt={name} className="h-[70px] w-auto" />
     </div>
   );
 };
