@@ -6,6 +6,11 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
+title,
+.different-text {
+  font-family: "Alkatra", cursive;
+}
+
 .App {
   scrollbar-width: thin;
   background-image: url("./assets/background.png");
