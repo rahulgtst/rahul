@@ -17,7 +17,7 @@ const Hero = ({ onChangeContactStatus }) => {
             Rahul Gupta
           </span>
         </h1>
-        <h3 className="different-text text-[24px]">Front End Developer</h3>
+        <h3 className="different-text text-[24px]">Full Stack Developer</h3>
         <q className="w-[300px] sm:w-[400px] md:w-[300px] lg:w-[400px] text-[14px] text-center text-slate-600 mt-4">
           Code enthusiast ❤️ crafting beautiful user experiences, Passionate
           programmer 💻 solving real-world problems.

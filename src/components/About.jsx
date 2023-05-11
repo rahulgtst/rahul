@@ -10,7 +10,7 @@ const About = () => {
       <div className="info flex flex-col justify-center items-center italic bg-white">
         <h1 className="text-[24px] font-bold text-[#4831D4]">{"<about />"}</h1>
         <p className="w-[300px] sm:w-[400px] md:w-[300px] lg:w-[500px] text-center text-[14px] mt-4 bg-white">
-          I am Rahul, a <strong>front-end developer</strong> based in Delhi,
+          I am Rahul, a <strong>Full Stack Developer</strong> based in Delhi,
           India. I am currently pursuing my <strong>B-Tech</strong> at
           <strong> Delhi Technological University</strong>. I do code in
           <strong> C++</strong> and <strong> Python</strong>. I know the basics
@@ -29,7 +29,7 @@ const About = () => {
           </strong>
           . Writing blogs on{" "}
           <strong>
-            <a href="https://dev.to/rahulgtst">dev.to</a>
+            <a href="https://rahulgtst.hashnode.dev/">Hashnode</a>
           </strong>{" "}
           and . I am interested in reading books and anime.
         </p>

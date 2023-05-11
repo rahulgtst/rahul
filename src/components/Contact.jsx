@@ -85,7 +85,7 @@ const Contact = ({ onChangeContactStatus }) => {
           type="submit"
           className=" col-start-1 text-[14px] md:text-[16px]  w-[280px] md:w-[600px] h-[40px] rounded-md text-[#1C1259] border border-[#1C1259] hover:text-white hover:bg-[#1C1259]"
         >
-          Submit
+          Send
         </button>
       </form>
     </section>
