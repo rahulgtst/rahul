@@ -2,15 +2,12 @@ import React from "react";
 import github from "../assets/github.png";
 import play from "../assets/play.png";
 import { motion } from "framer-motion";
+import img from "../assets/projectImages/Todo-app.png";
 
 const Project = ({ data }) => {
+  console.log(data.image);
   return (
-    <motion.div
-      // initial={{ opacity: 0 }}
-      // whileInView={{ opacity: 1 }}
-      // transition={{ duration: 100 }}
-      className="h-[300px] w-[300px] py-4 rounded-lg shadow-lg bg-white"
-    >
+    <motion.div className="h-[300px] w-[300px] py-4 rounded-lg shadow-lg bg-white">
       <img
         src={data.image}
         alt={data.name}

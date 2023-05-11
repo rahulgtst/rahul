@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useId } from "react";
 import Project from "./Project";
-import projectData from "../../data/projectData";
+import projectData from "../data/projectData";
 
 const Projects = () => {
   return (
@@ -13,7 +13,7 @@ const Projects = () => {
       </h1>
       <section className="flex flex-col md:flex-row flex-wrap gap-10 items-center justify-center md:w-[980px]">
         {projectData.map((data) => (
-          <Project key={data.id} data={data} />
+          <Project key={useId()} data={data} />
         ))}
       </section>
     </section>

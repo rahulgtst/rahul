@@ -4,7 +4,7 @@ const projectData = [
     name: "Todo App",
     githubLink: "https://github.com/rahulgtst/todo",
     websiteLink: "https://todo-tau-murex.vercel.app/",
-    tools: ["react.js", "tailwind css"],
+    tools: ["React.js", "Tailwind CSS"],
     image: "./src/assets/projectImages/Todo-app.png",
   },
 ];

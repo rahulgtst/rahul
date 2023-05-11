@@ -7,16 +7,16 @@ const Hero = ({ onChangeContactStatus }) => {
   return (
     <section
       id="Home"
-      className="hero flex flex-col md:flex-row justify-center items-center lg:gap-40 gap-10 h-[700px] md:h-[650px] "
+      className="flex flex-col md:flex-row justify-center items-center lg:gap-40 gap-10 h-[700px] md:h-[650px] "
     >
       <Image img={img} title="Rahul Gupta" />
       <div className="info flex flex-col justify-center items-center italic bg-[white]">
-        <h1 className="text-[30px] md:text-[48px]">
+        <h2 className="text-[30px] md:text-[48px]">
           Hi, I'm{" "}
           <span className="different-text text-[#4831D4] decoration-wavy decoration-yellow-300 decoration-from-font font-bold">
             Rahul Gupta
           </span>
-        </h1>
+        </h2>
         <h3 className="different-text text-[24px]">Full Stack Developer</h3>
         <q className="w-[300px] sm:w-[400px] md:w-[300px] lg:w-[400px] text-[14px] text-center text-slate-600 mt-4">
           Code enthusiast ❤️ crafting beautiful user experiences, Passionate

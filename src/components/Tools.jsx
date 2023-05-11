@@ -1,6 +1,6 @@
 import React from "react";
 import Tool from "./Tool";
-import toolData from "../../data/toolData";
+import toolData from "../data/toolData";
 
 const Tools = () => {
   const tools = toolData.map((data) => (
