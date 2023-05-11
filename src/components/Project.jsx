@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import img from "../assets/projectImages/Todo-app.png";
 
 const Project = ({ data }) => {
-  console.log(data.image);
   return (
     <motion.div className="h-[300px] w-[300px] py-4 rounded-lg shadow-lg bg-white">
       <img
