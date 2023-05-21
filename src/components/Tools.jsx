@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useId } from "react";
 import Tool from "./Tool";
 import toolData from "../data/toolData";
+import Cpp from "../assets/toolIcons/cpp.png";
 
 const Tools = () => {
   const tools = toolData.map((data) => (
     <Tool
-      key={data.key}
+      key={useId()}
       source={data.source}
       name={data.name}
       colorCode={data.colorCode}
